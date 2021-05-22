@@ -13,4 +13,4 @@ while True:
     currentTime = " " + time.ctime(time.time())+"\r\n"
     data = data+currentTime.encode('ascii')
     sock.sendto(data,addr)
-
+print("asd")
